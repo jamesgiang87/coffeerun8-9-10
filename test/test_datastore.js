@@ -7,13 +7,13 @@ ds.add('james@bond.com', 'eshpressho');
 
 ds.getAll();
 Object {
-  m @bond.com: "tea", james @bond.com: "eshpressho"
+  m@bond.com: "tea", james@bond.com: "eshpressho"
 }
 ds.remove('james@bond.com');
 
 ds.getAll();
 Object {
-  m @bond.com: "tea"
+  m@bond.com: "tea"
 };
 ds.get('m@bond.com');
 "tea"
